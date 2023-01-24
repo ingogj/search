@@ -11,11 +11,10 @@ import java.util.stream.Stream;
 public class Main3 {
     public static void main(String[] args) throws IOException {
         long start = System.currentTimeMillis();
-        String folder = "data/";
-        String[] words = {"walt", "disney"};
+        final String DATA_PATH = "data/";
 
-        List<String> files = getFiles(folder);
-        List<String> result = searchWords(files, words);
+        List<String> files = getFiles(DATA_PATH);
+        List<String> result = searchWords(files, args);
         System.out.println(result.size() + " " + result);
         System.out.println(System.currentTimeMillis() - start);
     }
