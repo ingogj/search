@@ -20,8 +20,8 @@ deve permitir que a sentença que deverá ser encontrada seja passada como parâ
 ## 1. Escolhas Arquiteturais
 > - [Java 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
 > - [Maven v3.8.7](https://maven.apache.org/)
-> - [Mockito v3.6.0]((https://site.mockito.org/))
-> - [Maven v3.8.7]((https://site.mockito.org/))
+> - [Mockito v3.6.0](https://site.mockito.org/)
+> - [Maven v3.8.7](https://github.com/powermock/powermock)
 ## 2. Como usar
 
 Instale as dependencias executando o comando:
